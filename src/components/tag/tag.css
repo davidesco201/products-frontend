@@ -1,0 +1,15 @@
+.tag {
+    background: var(--light-shades-color);
+    border: 0.1em solid var(--main-color);
+    margin: 0.2em;
+    padding: 0.5em;
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 0.5em;
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--main-color);
+    font-family: var(--main-font);
+    font-size: var(--h5-size);
+    box-shadow: var(--shadow-1);
+  }

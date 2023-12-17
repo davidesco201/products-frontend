@@ -1,0 +1,30 @@
+button {
+  background: var(--main-color);
+  border: 0.1em solid transparent;
+  margin: 0.2em;
+  padding: 0.5em;
+  text-align: center;
+  white-space: nowrap;
+  border-radius: 0.5em;
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--light-shades-color);
+  font-family: var(--main-font);
+  font-size: var(--h3-size);
+}
+
+button:hover {
+  box-shadow: var(--shadow-1);
+}
+
+button.secondary {
+  color: var(--main-color);
+  background: var(--light-shades-color);
+}
+button.secondary img {
+  filter: var(--filter-main-color);
+}
+
+button img {
+  filter: invert();
+}

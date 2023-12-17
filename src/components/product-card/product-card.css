@@ -1,0 +1,15 @@
+.product-card {
+  background: var(--light-shades-color);
+  width: fit-content;
+  height: fit-content;
+  min-width: fit-content;
+  vertical-align: middle;
+  margin: 0.3em;
+  border-radius: 0.8em;
+  padding: 0.3em;
+  align-items: center;
+  box-shadow: var(--shadow-1);
+}
+.product-card:hover {
+  cursor: pointer;
+}

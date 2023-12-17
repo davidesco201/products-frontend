@@ -1,0 +1,68 @@
+.col {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	gap: 0.5rem;
+	justify-content: flex-start;
+}
+.col.fit {
+	width: fit-content;
+}
+.row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+	justify-content: flex-start;
+}
+.row.scroll {
+	flex-wrap: nowrap;
+	overflow-x: auto;
+}
+.row.center {
+	justify-content: center;
+}
+.row
+	> :not(input[type='checkbox'], label, input[type='radio'], h1, h2, h3, h4, h5) {
+	flex-grow: 1;
+}
+.no-grow {
+	flex-grow: 0 !important;
+}
+.gap0 {
+	gap: 0;
+}
+
+.gap1 {
+	gap: 1rem;
+}
+
+.gap2 {
+	gap: 2rem;
+}
+
+.gap3 {
+	gap: 3rem;
+}
+
+.gap4 {
+	gap: 4rem;
+}
+
+.section {
+	margin-bottom: 0.5em;
+	margin-top: 0.5em;
+}
+
+.margin-left {
+	margin-left: 0.5em;
+}
+
+.margin-right {
+	margin-right: 0.5em;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(8rem, 1fr));
+    gap: 2vw;
+  }
